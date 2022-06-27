@@ -12,14 +12,16 @@ public class LinkedListMain {
         int x;
         System.out.println("How many element you required in linkedList ");
         x=sc.nextInt();
-        for(   int i=1;i<=x;i++){
+        for( int i=1;i<=x;i++){
             int y;
             System.out.println("enter the key value of node"+ i +"=");
             y=sc.nextInt();
             l1.push(y);
-        }
 
+        }
         l1.print();
+
+
 
     }
 }

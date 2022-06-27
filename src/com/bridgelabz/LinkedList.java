@@ -1,12 +1,13 @@
 package com.bridgelabz;
 
-public class LinkedList<K>{
+public class LinkedList<K> {
 
     Node<K> head, tail;
-    public void push(K key){
-        Node<K> newNode = new Node<K>(key);
+
+    public void push(K key) {
+        Node<K> newNode = new Node<>(key);
         if (head != null) {
-            head.next = newNode;
+            newNode.next = head;
         }
         head = newNode;
     }
@@ -17,7 +18,7 @@ public class LinkedList<K>{
             System.out.print(temp.key + " ");
             temp = temp.next;
         }
-
     }
+
 
 }
