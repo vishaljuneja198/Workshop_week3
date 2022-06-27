@@ -19,6 +19,21 @@ public class LinkedList<K> {
             temp = temp.next;
         }
     }
+    public Node<K> search(K key) {
+        Node<K> temp = this.head;
+        Node<K> node_Found = null;
 
+        while(temp != null){
+
+                node_Found = temp;
+
+        }
+        return node_Found;
+    }
+
+    public void pop(Node Address)
+    {
+
+    }
 
 }

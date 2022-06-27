@@ -20,7 +20,12 @@ public class LinkedListMain {
 
         }
         l1.print();
+int z;
+        System.out.println("enter the pervious key value which you want to delete z= ");
+        z= sc.nextInt();
+   Node Address_deleted_node = l1.search(z);
 
+    l1.pop(Address_deleted_node);
 
 
     }
