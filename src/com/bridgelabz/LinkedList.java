@@ -11,7 +11,13 @@ public class LinkedList<K>{
         head = newNode;
     }
 
+    public void print() {
+        Node<K> temp = head;
+        while (temp != null) {
+            System.out.print(temp.key + " ");
+            temp = temp.next;
+        }
 
-
+    }
 
 }

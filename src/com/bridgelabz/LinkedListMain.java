@@ -19,5 +19,7 @@ public class LinkedListMain {
             l1.push(y);
         }
 
+        l1.print();
+
     }
 }
